@@ -38,4 +38,10 @@ public class Calculadora {
         System.out.println("não é possivel dividir por Zero :");
     }
 
+    public void alteraDoisNumeros(int num1 , int num2) {
+        num1 = 30;
+        num2 = 40;
+        System.out.println("Dentro do Altera dois Numeros .");
+        System.out.println("num1: "+num1+" num2: "+num2);
+    }
 }
