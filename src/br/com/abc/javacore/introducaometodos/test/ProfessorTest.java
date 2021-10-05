@@ -18,5 +18,6 @@ public class ProfessorTest {
        // passando um objeto estanciado como parametro
        prof.imprime();
        prof2.imprime();
+       System.out.println("Teste de impressão");
     }
 }

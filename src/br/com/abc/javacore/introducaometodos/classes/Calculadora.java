@@ -44,4 +44,36 @@ public class Calculadora {
         System.out.println("Dentro do Altera dois Numeros .");
         System.out.println("num1: "+num1+" num2: "+num2);
     }
+    
+    public void somaArray(int [] numeros) {  
+    	//metodo recebendo um array de inteiros 
+    	int soma = 0;	
+    	
+    	for(int num : numeros) {
+    		soma += num;
+    	}
+    	
+    	System.out.println(soma);
+    }
+    
+    
+    public void somaVarArgs(int... numeros){
+    	// var args  tranforma o valor passado em array para soma 
+    	//só é possivel ter um var args pra cada assinatura de metodos 
+    	//caso tenha mais parametros para o metodo a variavel do tipo var args deve ser o ultimo parametro para o metodo
+    	
+        int soma = 0;	
+    	
+    	for(int num : numeros) {
+    		soma += num;
+    	}
+    	
+    	System.out.println(soma);
+    	
+    }
+    
+    
+    
+    
+    
 }
